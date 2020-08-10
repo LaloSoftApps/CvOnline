@@ -1,0 +1,292 @@
+{
+  "basics": {
+    "name": "Gonzalo David Santilli",
+    "label": "Ing.",
+    "birthdate": "1981-01-29",
+    "picture": "http://prueba00.ferozo.com/Data/GonzaloSantilli.jpg",
+    "email": "gsantilli@gmail.com",
+    "phone": "3415084813",
+    "website": "",
+    "summary": "Administrador de Sistemas Windows - Desarrollador - Implementador - Soporte Tecnico",
+    "location": {
+      "address": "Italia 1663",
+      "postalCode": "2000",
+      "city": "Rosario",
+      "countryCode": "AR",
+      "region": "Santa Fe",
+      "map": "https://www.google.com/maps/place/DFG,+Italia+1663,+S2000+Rosario,+Provincia+de+Santa+Fe/@-32.955108,-60.6525974,17z/data=!3m1!4b1!4m5!3m4!1s0x95b7ab12c0159ac7:0xfd1d1e1ab6306b1f!8m2!3d-32.955108!4d-60.6504034"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "gonzalo-santilli-1446b1100",
+        "url": "https://www.linkedin.com/in/gonzalo-santilli-1446b1100"
+      },
+      {
+        "network": "GitHub",
+        "username": "LaloSoftApps",
+        "url": "https://github.com/LaloSoftApps"
+      }
+    ]
+  },
+
+  "education": [
+    {
+      "institution": "Escuela Superior Dr. Mariano Moreno",
+      "city": "Armstrong",
+      "degree": "Nivel Inicial",
+      "studyType": "Nivel Inicial",
+      "startDate": "1987-01-01",
+      "endDate": "1993-12-01",
+      "CertificateUrl": ""
+    },
+    {
+      "institution": "Escuela Nacional Normal De Comercio Dr. M. Belgrano",
+      "city": "Armstrong",
+      "degree": "Perito Mercantil con especialización contable e impositiva",
+      "studyType": "Nivel Secundario",
+      "startDate": "1994-01-01",
+      "endDate": "1998-12-01",
+      "CertificateUrl": "http://prueba00.ferozo.com/Data/Certificados/Secundario.jpg"
+    },
+    {
+      "institution": "Instituto Superior Particular Incorporado Nº 4011 'Gral. Manuel Belgrano'",
+      "city": "Rosario",
+      "degree": "Analista en Sistemas de Información",
+      "studyType": "Nivel Terciario",
+      "startDate": "2004-01-01",
+      "endDate": "2006-12-01",
+      "CertificateUrl": "http://prueba00.ferozo.com/Data/Certificados/AnalistaSistemas.jpg"
+    },
+    {
+      "institution": "Universidad Abierta Interamericana",
+      "city": "Rosario",
+      "degree": "Ingeniería  en Sistemas de Información",
+      "studyType": "Universitario",
+      "startDate": "2007-01-01",
+      "endDate": "2010-12-01",
+      "CertificateUrl": "http://prueba00.ferozo.com/Data/Certificados/Ingenieria.jpg"
+    }
+
+  ],
+
+
+  "courses": [
+    {
+      "institution": "Knowledge Management S.R.L.",
+      "course": "Curso de Fundamentos de HTML, Front Page 2000, JavaScript y Dreamweaver",
+      "startDate": "2002-01-01",
+      "endDate": "2002-12-01",
+      "CertificateUrl": ""
+    },
+    {
+      "institution": "Daniel Ahmed",
+      "course": "Curso de técnica, ejecución, composición y arreglos, de teoría y practica musical.",
+      "startDate": "2004-01-01",
+      "endDate": "2004-12-01",
+      "CertificateUrl": ""
+    },
+    {
+      "institution": "Facultad de Ciencias Exactas, Ingeniería y Agrimensura",
+      "course": "Curso Visual Basic 6.0 Inicial",
+      "startDate": "2005-01-01",
+      "endDate": "2005-12-01",
+      "CertificateUrl": "http://prueba00.ferozo.com/Data/Certificados/VB6.jpg"
+    },
+    {
+      "institution": "Grupo de Usuarios Microsoft",
+      "course": "Curso T.SQL",
+      "startDate": "2009-01-01",
+      "endDate": "2009-12-01",
+      "CertificateUrl": "http://prueba00.ferozo.com/Data/Certificados/SqlServer.jpg"
+    },
+    {
+      "institution": "Grupo de Usuarios Microsoft",
+      "course": "Curso .NET 4.0 y Visual Studio 2010",
+      "startDate": "2011-01-01",
+      "endDate": "2011-12-01",
+      "CertificateUrl": "http://prueba00.ferozo.com/Data/Certificados/.Net.jpg"
+    },
+    {
+      "institution": "EducaciónIT",
+      "course": "Curso de Programación Orientada a Objetos sobre PHP",
+      "startDate": "2018-01-01",
+      "endDate": "2018-12-01",
+      "CertificateUrl": "http://prueba00.ferozo.com/Data/Certificados/Php.jpg"
+    },
+
+    {
+      "institution": "Polo Tecnologico Rosario",
+      "course": "Oracle PL/SQL",
+      "startDate": "2019-08-01",
+      "endDate": "2019-10-01",
+      "CertificateUrl": "http://prueba00.ferozo.com/Data/Certificados/Oracle.jpg"
+    },
+
+    {
+      "institution": "Polo Tecnologico Rosario",
+      "course": "Curso de Ingles Basico",
+      "startDate": "2020-01-01",
+      "endDate": "a la fecha",
+      "CertificateUrl": ""
+    },
+    {
+      "institution": "Polo Tecnologico Rosario",
+      "course": "Curso de Programación C# .NET Core 3.1",
+      "startDate": "2020-06-01",
+      "endDate": "a la fecha",
+      "CertificateUrl": ""
+    }
+  ],
+
+
+  "other_courses": [
+    {
+      "description": "Carnet de conductor de Automoviles. Clase B1."
+    }
+  ],
+
+   "languages":[
+      {
+        "language": "Español",
+        "fluency": "Nativo"
+      },
+      {
+        "language": "Ingles",
+        "fluency": "Basico"
+      }
+    ],
+
+
+    "work":[
+      {
+        "institution": "Nasa Computación (Sucursal Armstrong)",
+        "position": "Reemplazante y Atencion al Publico",
+        "Tasks": [
+          "Apoyo de conocimiento de cursos",
+          "Atención del ciber"
+        ],
+        "startDate": "2002-01-01",
+        "endDate": "2003-01-01",
+        "reference": "-"
+      },
+      {
+        "institution": "Stud los Melli",
+        "position": "Encargado del Desarrollo del sitio Web 'greyhoundlosmelli'",
+        "Tasks": [
+          "Análisis y Diseño",
+          "Actualización, y Mantenimiento",
+          "Registración de dominios y Hosteo",
+          "Email Marketing empresarial"
+        ],
+        "startDate": "2006-01-01",
+        "endDate": "2008-12-01",
+        "reference": "Responsable del Stud - Omar Terzoni - 03471-15521957 - omarterzoni@arnet.com.ar"
+      },
+      {
+        "institution": "DonWeb",
+        "position": "Soporte Técnico",
+        "Tasks": [
+          "Mesa de Soporte",
+          "Soporte Técnico de Servidores con Sistema Operativo Linux y Windows",
+          "Armado de Servidores"
+        ],
+        "startDate": "2007-08-25",
+        "endDate": "2008-12-01",
+        "reference": "Supervisor de Soporte Técnico - Matias Crognoletti - matias.crognoletti@donweb.com"
+      },
+      {
+        "institution": "DonWeb",
+        "position": "Técnico con especialización en Base de datos y Servidores Windows",
+        "Tasks": [
+          "Detección de inconvenientes en servidores Windows",
+          "Soporte y mantenimiento de Active Directory, File Servers y bases de datos MySQL/Sql Server Centralizadas",
+          "Implementaciones"
+        ],
+        "startDate": "2009-01-01",
+        "endDate": "2010-12-01",
+        "reference": "Supervisor de Soporte Técnico - Matias Crognoletti - matias.crognoletti@donweb.com"
+      },
+      {
+        "institution": "DonWeb",
+        "position": "Administrador de Servidores Windows",
+        "Tasks": [
+          "Desarrollo, Implementación y Documentación de Sistema de Backups",
+          "Investigación, instalación y mantenimiento de nuevas tecnologías",
+          "Seguridad, análisis y reportes de servidores",
+          "Desarrollo de aplicaciones web para monitoreo y control automático de performance",
+          "Virtualización de Servidores Windows sobre XenServer y tecnología OpenStack",
+          "Instalación, configuración, control y generación de seguridad para PC internas Windows"
+        ],
+        "startDate": "2011-01-01",
+        "endDate": "2016-05-01",
+        "reference": "Encargado de Infraestructura - Sebastian Irazoqui - sebastian.irazoqui@donweb.com"
+      },
+      {
+        "institution": "Centro Social EL GALPON",
+        "position": "Encargado Ad honorem del proyecto de inclusión digital",
+        "Tasks": [
+          "Reacondicionamiento del espacio físico otorgado",
+          "Definición y documentación de la misión, visión y auto-financiamiento del proyecto",
+          "Generación y Dictado del contenido del curso",
+          "Clases de apoyo escolar"
+        ],
+        "startDate": "2016-01-01",
+        "endDate": "2016-12-01",
+        "reference": "-"
+      },
+      {
+        "institution": "ESG Dilec",
+        "position": "Soporte Técnico y Mesa de Ayuda",
+        "Tasks": [
+          "Soporte, Implementación y Monitoreo de las aplicaciones ofrecidas",
+          "Generación de reportes a medida",
+          "Capacitación a empresas in situ, videoconferencia y/o telefónica",
+          "Soporte interno y externo, respecto a software, hardware y comunicaciones",
+          "Implementación y virtualización de servidores Windows y Linux",
+          "Desarrollo de herramientas web de integración entre los diferentes sistemas ofrecidos, y/o con desarrollos propios de los clientes",
+          "Desarrollo e implementación de sistemas de automatización de procesos manuales y mantenimiento de sistemas"
+        ],
+        "startDate": "2017-12-01",
+        "endDate": "A la fecha",
+        "reference": "Supervidor de Soporte Técnico - Julio Galván - j.galvan@blcges.com"
+      },
+      {
+        "institution": "LaloSoft Apps.",
+        "position": "Desarrollador independiente",
+        "Tasks": [
+          "Analisis, Presupuestacion, Desarrollo e Implementacion",
+          "WebService PHP -> XML como Middleware entre dos productos ya implementados de diferentes tecnologias. Cliente: Empresa Distribuidora de Energia Norte S.A. (EDEN)",
+          "WebService PHP -> JSON como Middleware entre dos productos ya implementados de diferentes tecnologias. Cliente: Empresa Distribuidora de Energia Sur S.A. (EDES)",
+          "Aplicacion .Net de escritorio y modulos automaticos de BackEnd PowerShell para la distribución (por correo electronico) de lecturas de medidores Electricos a cada Agente. Cliente: CAMMESA (Control del Mercado Electrico Mayorista)"
+        ],
+        "startDate": "2018-01-01",
+        "endDate": "A la fecha",
+        "reference": "-"
+      }
+
+
+    ],
+
+    "skills"
+    :
+    [
+      "Powershell",
+      "PHP",
+      "Visual Basic 6",
+      "C# .NET",
+      "C# .Net Core",
+      "SysAdmin Windows",
+      "Devops"
+    ],
+
+    "interests"
+    :
+    [
+      "IT",
+      "Desarrollo",
+      "Running",
+      "Musica"
+    ]
+
+}

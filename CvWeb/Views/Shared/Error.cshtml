@@ -1,0 +1,15 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h2 class="text-danger">Error</h2>
+
+@if (ViewData["Error"] != null)
+{
+    <p>
+        <strong>Detalle:</strong> <i>@ViewData["Error"]</i>
+    </p>
+}
+
+

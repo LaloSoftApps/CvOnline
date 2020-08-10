@@ -1,0 +1,174 @@
+﻿@{
+    ViewData["Title"] = "CV OnLine";
+}
+
+    <div class="text-center">
+        @{
+            Cv CvData = new Cv();
+            CvData = Model;
+        }
+
+        <div class="col-sm-12">
+            <div class="card-body">
+                <h2 class="card-title">
+                    @CvData.basics.label @CvData.basics.name
+                </h2>
+                <h5 class="card-title">
+                    - <i>@CvData.basics.summary</i> -
+                </h5>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">
+                        Informacion
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <img src="@CvData.basics.picture" class="rounded-circle img-thumbnail" width="150" height="150" /><br /><br />
+
+                            Fecha de Nacimiento: @CvData.basics.birthdate<br />
+                            Correo Electronico: <a href="mailto:@CvData.basics.email">@CvData.basics.email</a><br />
+                            Telefono: @CvData.basics.phone<br />
+                            Direccion: <a href="@CvData.basics.location.map">@CvData.basics.location.address</a> - @CvData.basics.location.city ( @CvData.basics.location.region - @CvData.basics.location.countryCode )
+                            <hr />
+                            WebSite: @CvData.basics.website<br />
+                            @{
+                                foreach (Profile SocialNetwork in @CvData.basics.profiles)
+                                {
+                                    <b>@SocialNetwork.network:</b> <a href="@SocialNetwork.url">@SocialNetwork.username</a><br />
+                                }
+                            }
+                            <hr />
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">
+                        Formacion
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            @{
+                                foreach (Education oEducation in @CvData.education)
+                                {
+                                    <b> @oEducation.studyType:</b> @oEducation.institution <i>( @oEducation.city )</i> <br />
+                                    <b>@oEducation.startDate / @oEducation.endDate</b> <a href="@oEducation.CertificateUrl"> @oEducation.degree </a> <br />
+                                    <hr />
+                                }
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br />
+
+        <div class="row">
+
+            <div class="col-sm-6">
+
+                <div class="card">
+                    <div class="card-header">
+                        Cursos y Capacitaciones
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            @{
+                                foreach (Cours oCourse in @CvData.courses)
+                                {
+                                    <b> <a href="@oCourse.CertificateUrl"> @oCourse.course </a></b> <br />
+                                    <b>@oCourse.startDate / @oCourse.endDate</b> @oCourse.institution <br />
+                                    <hr />
+                                }
+                            }
+                        </p>
+                    </div>
+                </div>
+
+                <br />
+
+                <div class="card">
+                    <div class="card-header">
+                        Otros
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            @{
+                                foreach (OtherCourses oOtherCourse in @CvData.other_courses)
+                                {
+                                    <b> @oOtherCourse.description </b> <br />
+                                    <hr />
+                                }
+                            }
+                        </p>
+                    </div>
+                </div>
+
+                <br />
+
+                <div class="card">
+                    <div class="card-header">
+                        Idiomas
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            @{
+                                foreach (Language oLanguage in @CvData.languages)
+                                {
+                                    <b> @oLanguage.language : </b> @oLanguage.fluency<br />
+                                    <hr />
+                                }
+                            }
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-6">
+
+                <div class="card">
+                    <div class="card-header">
+                        Experiencia Laboral
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            @{
+                                foreach (Work oWork in @CvData.work)
+                                {
+                                    <b> @oWork.position </b> <br /><br />
+                                    <b>@oWork.startDate / @oWork.endDate </b> @oWork.institution <br />
+                                    <b>Tareas realizadas: </b>
+                                    <ul>
+                                        @foreach (string oTask in @oWork.Tasks)
+                                        {
+                                            <li>@oTask</li>
+                                        }
+                                    </ul>
+                                    <b>Referencia: </b> @oWork.reference<br />
+                                    <hr />
+                                }
+                            }
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
