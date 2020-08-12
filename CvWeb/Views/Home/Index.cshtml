@@ -29,7 +29,7 @@
                     </div>
                     <div class="card-body">
                         <p class="card-text">
-                            <img src="@CvData.basics.picture" class="rounded-circle img-thumbnail" width="150" height="150" /><br /><br />
+                            <img src="~/data/@ViewData["id"]/@CvData.basics.picture" class="rounded-circle img-thumbnail" width="150" height="150" /><br /><br />
 
                             Fecha de Nacimiento: @CvData.basics.birthdate<br />
                             Correo Electronico: <a href="mailto:@CvData.basics.email">@CvData.basics.email</a><br />
@@ -56,14 +56,16 @@
                     </div>
                     <div class="card-body">
                         <p class="card-text">
-                            @{
-                                foreach (Education oEducation in @CvData.education)
-                                {
-                                    <b> @oEducation.studyType:</b> @oEducation.institution <i>( @oEducation.city )</i> <br />
-                                    <b>@oEducation.startDate / @oEducation.endDate</b> <a href="@oEducation.CertificateUrl"> @oEducation.degree </a> <br />
-                                    <hr />
+                            @foreach (Education oEducation in @CvData.education) {
+                                <b> @oEducation.studyType:</b> @oEducation.institution <i>( @oEducation.city )</i> <br />
+                                <b>@oEducation.startDate / @oEducation.endDate</b> @oEducation.degree
+                                @if (@oEducation.CertificateUrl != "") {
+                                    <a href="~/data/@ViewData["id"]/certificates/@oEducation.CertificateUrl" target="_blank"> <img src="~/img/certificate.png" /> </a>
                                 }
-                            }
+                                <br />
+                                <hr />
+                             }
+                            
                         </p>
                     </div>
                 </div>
@@ -86,8 +88,14 @@
                             @{
                                 foreach (Cours oCourse in @CvData.courses)
                                 {
-                                    <b> <a href="@oCourse.CertificateUrl"> @oCourse.course </a></b> <br />
-                                    <b>@oCourse.startDate / @oCourse.endDate</b> @oCourse.institution <br />
+                                    <b> @oCourse.course </b>
+                                    @if (@oCourse.CertificateUrl != "")
+                                    {
+                                        <a href="~/data/@ViewData["id"]/certificates/@oCourse.CertificateUrl" target="_blank"> <img src="~/img/certificate.png" /> </a>
+                                    }
+                                    <br />
+                                    <b>@oCourse.startDate / @oCourse.endDate</b> @oCourse.institution
+                                    <br />
                                     <hr />
                                 }
                             }
